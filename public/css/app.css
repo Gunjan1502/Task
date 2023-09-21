@@ -1,0 +1,63 @@
+a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+table, th,tr,td {
+    text-align:center;
+}
+th, td {
+    border-width: 0 0px !important;
+}
+tbody, td, tfoot, th, thead, tr {
+    border-style: none !important;
+}
+
+.card{
+    width: 82%;
+    margin: 10px 0px 27px 121px;
+}
+.card.maincard {
+    width: 86%;
+    margin: 39px 0px 0px 94px;
+}
+
+.btn-task{border: 1px solid black !important;
+}
+
+.form-control {
+    width: 90% !important;
+    padding: 9px 10px !important;
+    border: 1px solid #9ba5af !important;
+    font-weight: 400 !important;
+    border-radius: 8px !important;
+}
+
+@media (min-width: 576px){
+    .card {
+        margin: 10px 0px 27px 61px;
+    }
+    .card.maincard {
+        margin: 39px 0px 0px 55px;
+    }
+
+}
+
+@media (min-width: 1200px)
+{
+    .card.maincard {
+           margin: 39px 0px 22px 43px;
+    }    
+}
+@media (min-width: 992px) {
+    .card.maincard {
+        margin: 39px 0px 0px 55px;
+    } 
+}
+
+@media (min-width: 768px){
+    .card.maincard {
+        margin: 39px 0px 22px 43px;
+    } 
+}
+
